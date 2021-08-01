@@ -18,17 +18,17 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <PrefixedLink href="./#projects">
+        <PrefixedLink href="#projects">
           <NavLink>Projects</NavLink>
         </PrefixedLink>
       </li>
       <li>
-        <PrefixedLink href="./#tech">
+        <PrefixedLink href="#tech">
           <NavLink>Technologies</NavLink>
         </PrefixedLink>
       </li>
       <li>
-        <PrefixedLink href="./#about">
+        <PrefixedLink href="#about">
           <NavLink>About Me</NavLink>
         </PrefixedLink>
       </li>
