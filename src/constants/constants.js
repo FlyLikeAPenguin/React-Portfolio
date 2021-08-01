@@ -5,8 +5,8 @@ export const projects = [
     objectives: ["Single page and elegant design.", "Tutorial - An example to build upon and customize.", "Mobile friendly.", "Compatible with Github Pages."],
     image: './images/1.png',
     tags: ['React.js', 'Next.js', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/FlyLikeAPenguin/React-Portfolio',
+    visit: 'https://flylikeapenguin.github.io/React-Portfolio/',
     id: 0,
   }
 ];
