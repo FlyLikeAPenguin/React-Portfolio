@@ -2,13 +2,14 @@
   "name": "portfolio_nextjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://flylikeapenguin.github.io/React-Portfolio/",
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
+    "export": "next export",
     "start": "next start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "next": "10.2.3",
