@@ -1,37 +1,36 @@
-import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { RiXingLine } from 'react-icons/ri';
-
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+import PrefixedLink from '../../styles/GlobalComponents/PrefixedLink.js';
 
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
+      <PrefixedLink href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "20px" }}>
           <RiXingLine size="3rem" />
           <Span>
             Portfolio
           </Span>
         </a>
-      </Link>
+      </PrefixedLink>
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
+        <PrefixedLink href="#projects">
           <NavLink>Projects</NavLink>
-        </Link>
+        </PrefixedLink>
       </li>
       <li>
-        <Link href="#tech">
+        <PrefixedLink href="#tech">
           <NavLink>Technologies</NavLink>
-        </Link>
+        </PrefixedLink>
       </li>
       <li>
-        <Link href="#about">
+        <PrefixedLink href="#about">
           <NavLink>About Me</NavLink>
-        </Link>
+        </PrefixedLink>
       </li>
     </Div2>
     <Div3>
