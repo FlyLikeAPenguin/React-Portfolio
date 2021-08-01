@@ -1,4 +1,6 @@
-module.exports {
-    basePath: process.env.NEXT_PUBLIC_BASE_PATH,
-        assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH
+const isProd = process.env.NODE_ENV === 'production'
+
+module.exports = {
+    // Use the CDN in production and localhost for development.
+    assetPrefix: isProd ? 'https://flylikeapenguin.github.io/React-Portfolio/' : '',
 }
