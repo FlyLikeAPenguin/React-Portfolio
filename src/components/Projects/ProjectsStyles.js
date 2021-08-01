@@ -125,10 +125,10 @@ font-size: 1.5rem;
 `
 
 export const ObjectivesList = styled.ul`
+  margin-top: 1rem;
   width: 100%;  
   padding: 0 50px;
   color: #e4e6e7;
-  font-style: 2rem;
   line-height: 24px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {

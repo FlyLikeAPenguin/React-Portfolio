@@ -112,6 +112,7 @@ export const ListItem = styled.li`
 `
 
 export const TechTypesList = styled.ul`
+  margin-top: 1rem;
   list-style-type: inside;
 `
 
