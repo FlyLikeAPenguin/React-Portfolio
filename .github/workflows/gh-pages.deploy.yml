@@ -15,7 +15,9 @@ jobs:
       matrix:
         node-version: [14.x]
 
-
+    env:
+      NEXT_PUBLIC_BASE_PATH: /React-Portfolio
+      
     steps:
       - name: Get files
         uses: actions/checkout@v2
