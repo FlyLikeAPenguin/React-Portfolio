@@ -15,7 +15,7 @@ const Technologies = () => (
     </SectionText>
     <List>
       <ListItem>
-        <RiComputerLine size="3rem" />
+        <RiComputerLine size="3rem" inline-size="fit-content" />
         <ListContainer>
           <ListTitle>
             Front-end
@@ -32,7 +32,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <RiDatabaseLine size="3rem" />
+        <RiDatabaseLine size="3rem" inline-size="fit-content" />
         <ListContainer>
           <ListTitle>
             Back-end
@@ -50,7 +50,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <RiTerminalWindowLine size="3rem" />
+        <RiTerminalWindowLine size="3rem" inline-size="fit-content" />
         <ListContainer>
           <ListTitle>
             Tools/Platforms
@@ -62,7 +62,7 @@ const Technologies = () => (
               <TechTypesListItem>Linux</TechTypesListItem>
               <TechTypesListItem>Git</TechTypesListItem>
               <TechTypesListItem>Subversion</TechTypesListItem>
-              <TechTypesListItem>Visual Studio</TechTypesListItem>
+              <TechTypesListItem>Visual Studio/VS Code</TechTypesListItem>
               <TechTypesListItem>Sharepoint</TechTypesListItem>
             </TechTypesList>
           </ListParagraph>

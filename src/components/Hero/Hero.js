@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { ButtonBack, LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
   <Section row nopadding>
@@ -13,9 +13,9 @@ const Hero = (props) => (
       <SectionText>
         I'm Joe - a software developer from the UK currently working on laboratory management software for the nuclear medicine industry.
       </SectionText>
-      <Button onClick={() => window.location = "#projects"}>
+      <ButtonBack href="#projects">
         Learn More
-      </Button>
+      </ButtonBack>
     </LeftSection>
   </Section>
 );
