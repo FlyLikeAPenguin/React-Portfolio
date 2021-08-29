@@ -7,7 +7,7 @@ export const projects = [
     tags: ['React.js', 'Next.js', 'Node'],
     source: 'https://github.com/FlyLikeAPenguin/React-Portfolio',
     visit: 'https://flylikeapenguin.github.io/React-Portfolio/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'React Flashcards',
@@ -17,7 +17,7 @@ export const projects = [
     tags: ['React.js', 'JSON', 'Node'],
     source: 'https://github.com/FlyLikeAPenguin/Genki-Flashcards',
     visit: 'https://flylikeapenguin.github.io/Genki-Flashcards/',
-    id: 1,
+    id: 0,
   }
 ];
 
