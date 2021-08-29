@@ -7,17 +7,17 @@ export const projects = [
     tags: ['React.js', 'Next.js', 'Node'],
     source: 'https://github.com/FlyLikeAPenguin/React-Portfolio',
     visit: 'https://flylikeapenguin.github.io/React-Portfolio/',
-    id: 1,
+    id: 0,
   },
   {
-    title: 'React Flashcards',
+    title: 'Genki Flashcards',
     description: "A react webapp companion to the genki textbooks for Kanji/Kana.",
     objectives: ["A fully featured flashcards app.", "User's lesson selection persists between sessions.", "Compatible with Github Pages.", "Mobile friendly."],
     image: './images/2.png',
     tags: ['React.js', 'JSON', 'Node'],
     source: 'https://github.com/FlyLikeAPenguin/Genki-Flashcards',
     visit: 'https://flylikeapenguin.github.io/Genki-Flashcards/',
-    id: 0,
+    id: 1,
   }
 ];
 

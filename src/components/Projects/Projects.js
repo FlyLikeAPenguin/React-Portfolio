@@ -17,7 +17,7 @@ const Projects = () => (
       Here's what I've done.
     </SectionText>
     <GridContainer>
-      {projects.map(({ id, image, title, description, objectives, tags, source, visit }) => (
+      {projects.sort((a, b) => b.id - a.id).map(({ id, image, title, description, objectives, tags, source, visit }) => (
         <BlogCard key={id}>
           <Img src={image} />
           <TitleContent>
