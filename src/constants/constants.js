@@ -12,7 +12,7 @@ export const projects = [
   {
     title: 'React Flashcards',
     description: "A react webapp companion to the genki textbooks for Kanji/Kana.",
-    objectives: ["A fully featured flashcards app.", "User's lesson selection persists between sessions.", "Mobile friendly."],
+    objectives: ["A fully featured flashcards app.", "User's lesson selection persists between sessions.", "Compatible with Github Pages.", "Mobile friendly."],
     image: './images/2.png',
     tags: ['React.js', 'JSON', 'Node'],
     source: 'https://github.com/FlyLikeAPenguin/Genki-Flashcards',
