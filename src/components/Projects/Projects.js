@@ -51,13 +51,21 @@ const Projects = () => (
           </div>
           <UtilityList>
             <ExternalLinks href={visit}>
-              Visit&nbsp;
-              <RiExternalLinkFill />
+              {visit != null &&
+                <p>
+                  Visit&nbsp;
+                  <RiExternalLinkFill />
+                </p>
+              }
             </ExternalLinks>
-            <ExternalLinks href={source}>
-              Source&nbsp;
-              <RiCodeSSlashLine size="2rem" />
-            </ExternalLinks>
+            {source != null &&
+              <ExternalLinks href={source}>
+                <p>
+                  Source&nbsp;
+                  <RiCodeSSlashLine size="2rem" />
+                </p>
+              </ExternalLinks>
+            }
           </UtilityList>
         </BlogCard>
       ))}

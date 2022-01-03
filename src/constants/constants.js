@@ -18,6 +18,15 @@ export const projects = [
     source: 'https://github.com/FlyLikeAPenguin/Genki-Flashcards',
     visit: 'https://flylikeapenguin.github.io/Genki-Flashcards/',
     id: 1,
+  },
+  {
+    title: 'Python Gold',
+    description: "The gold medal for python on Hackerrank",
+    objectives: ["To revise the fundamentals of python.", "Practice Algorithms & Data Structures."],
+    image: './images/3.png',
+    tags: ['Python', 'Challenges', 'Hackerrank'],
+    visit: 'https://www.hackerrank.com/FlyLikeAPenguin',
+    id: 2,
   }
 ];
 
@@ -25,7 +34,8 @@ export const TimeLineData = [
   { year: 2017, text: 'Completed BSc Computer Science - 1st Class (Hons)', },
   { year: 2018, text: 'Completed PGCE in Computing (Teacher Training)', },
   { year: 2018, text: 'Started work at LabLogic Systems as a C# .Net Developer', },
-  { year: 2020, text: 'LabLogic - Designed, Managed & Completed .Net Core REST API', },
+  { year: 2020, text: 'LabLogic - Designed, Managed & Completed a .Net Core REST API', },
   { year: 2021, text: 'Created Personal Portfolio using React.js & Next.js', },
   { year: 2021, text: 'Created Genki Flashcards using React.js', },
+  { year: 2022, text: 'Got first gold badge on Hackerrank (Python)', },
 ];
