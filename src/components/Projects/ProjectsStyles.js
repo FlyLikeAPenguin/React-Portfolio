@@ -130,7 +130,7 @@ export const ObjectivesList = styled.ul`
   padding: 0 50px;
   color: #e4e6e7;
   line-height: 24px;
-  text-align: justify;
+  text-align: left;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
   list-style-type: inside;
