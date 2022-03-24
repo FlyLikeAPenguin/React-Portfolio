@@ -1,23 +1,31 @@
 export const projects = [
   {
+    title: 'Go vs CUDA Neural Network Inference',
+    description: "A university project to compare inference performance between CUDA on a GPU and Go running in parallel on the CPU",
+    objectives: ["Improve CUDA knowledge.", "Improve Golang knowledge.", "Explore Go parallelism", "To write NN inference for the MNIST dataset from scratch."],
+    image: './images/5.png',
+    tags: ['CUDA', 'C++', 'Golang', 'ML'],
+    id: 0,
+  },
+  {
     title: 'React Portfolio',
-    description: "A personal portfolio in React.",
+    description: "A personal portfolio in React",
     objectives: ["Single page and elegant design.", "Tutorial - An example to build upon and customize.", "Mobile friendly.", "Compatible with Github Pages."],
     image: './images/1.png',
     tags: ['React.js', 'Next.js', 'Node'],
     source: 'https://github.com/FlyLikeAPenguin/React-Portfolio',
     visit: 'https://flylikeapenguin.github.io/React-Portfolio/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Genki Flashcards',
-    description: "A react webapp companion to the genki textbooks for Kanji/Kana.",
+    description: "A react webapp companion to the genki textbooks for Kanji/Kana",
     objectives: ["A fully featured flashcards app.", "User's lesson selection persists between sessions.", "Compatible with Github Pages.", "Mobile friendly."],
     image: './images/2.png',
     tags: ['React.js', 'JSON', 'Node'],
     source: 'https://github.com/FlyLikeAPenguin/Genki-Flashcards',
     visit: 'https://flylikeapenguin.github.io/Genki-Flashcards/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Python Gold',
@@ -26,8 +34,16 @@ export const projects = [
     image: './images/3.png',
     tags: ['Python', 'Challenges', 'Hackerrank'],
     visit: 'https://www.hackerrank.com/FlyLikeAPenguin',
-    id: 2,
-  }
+    id: 3,
+  },
+  {
+    title: 'IdleSat',
+    description: "An satellite themed 'Idle' Game created in the Unity engine",
+    objectives: ["Exploring game mechanics in Unity", "Creating graphics/UI elements"],
+    image: './images/4.gif',
+    tags: ['Unity', 'C#', 'Game'],
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [
