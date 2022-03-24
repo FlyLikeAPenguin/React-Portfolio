@@ -1,15 +1,15 @@
 export const projects = [
   {
     title: 'Go vs CUDA Neural Network Inference',
-    description: "A university project to compare inference performance between CUDA on a GPU and Go running in parallel on the CPU",
-    objectives: ["Improve CUDA knowledge.", "Improve Golang knowledge.", "Explore Go parallelism", "To write NN inference for the MNIST dataset from scratch."],
+    description: "A university project to compare inference performance between CUDA on a GPU and Go running in parallel on the CPU.",
+    objectives: ["Improve CUDA knowledge.", "Improve Golang knowledge.", "Explore Go parallelism.", "To write NN inference for the MNIST dataset from scratch."],
     image: './images/5.png',
     tags: ['CUDA', 'C++', 'Golang', 'ML'],
     id: 0,
   },
   {
     title: 'React Portfolio',
-    description: "A personal portfolio in React",
+    description: "A personal portfolio in React.",
     objectives: ["Single page and elegant design.", "Tutorial - An example to build upon and customize.", "Mobile friendly.", "Compatible with Github Pages."],
     image: './images/1.png',
     tags: ['React.js', 'Next.js', 'Node'],
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Genki Flashcards',
-    description: "A react webapp companion to the genki textbooks for Kanji/Kana",
+    description: "A react webapp companion to the genki textbooks for Kanji/Kana.",
     objectives: ["A fully featured flashcards app.", "User's lesson selection persists between sessions.", "Compatible with Github Pages.", "Mobile friendly."],
     image: './images/2.png',
     tags: ['React.js', 'JSON', 'Node'],
@@ -29,7 +29,7 @@ export const projects = [
   },
   {
     title: 'Python Gold',
-    description: "The gold medal for python on Hackerrank",
+    description: "The gold medal for python on Hackerrank.",
     objectives: ["To revise the fundamentals of python.", "Practice Algorithms & Data Structures."],
     image: './images/3.png',
     tags: ['Python', 'Challenges', 'Hackerrank'],
@@ -38,8 +38,8 @@ export const projects = [
   },
   {
     title: 'IdleSat',
-    description: "An satellite themed 'Idle' Game created in the Unity engine",
-    objectives: ["Exploring game mechanics in Unity", "Creating graphics/UI elements"],
+    description: "An satellite themed 'Idle' Game created in the Unity engine.",
+    objectives: ["Exploring game mechanics in Unity.", "Creating graphics/UI elements."],
     image: './images/4.gif',
     tags: ['Unity', 'C#', 'Game'],
     id: 4,
