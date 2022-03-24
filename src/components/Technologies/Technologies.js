@@ -23,8 +23,8 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br />
             <TechTypesList>
-              <TechTypesListItem>Winforms (3 Years Commerical)</TechTypesListItem>
-              <TechTypesListItem>DevExpress (3 Years Commerical)</TechTypesListItem>
+              <TechTypesListItem>Winforms</TechTypesListItem>
+              <TechTypesListItem>DevExpress</TechTypesListItem>
               <TechTypesListItem>React.js</TechTypesListItem>
               <TechTypesListItem>HTML/CSS</TechTypesListItem>
             </TechTypesList>
@@ -40,8 +40,8 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br />
             <TechTypesList>
-              <TechTypesListItem>C# .Net (3 Years Commerical)</TechTypesListItem>
-              <TechTypesListItem>.Net Core APIs (6 Months Commercial)</TechTypesListItem>
+              <TechTypesListItem>C# .Net</TechTypesListItem>
+              <TechTypesListItem>.Net Core APIs</TechTypesListItem>
               <TechTypesListItem>Go</TechTypesListItem>
               <TechTypesListItem>Python</TechTypesListItem>
               <TechTypesListItem>Java</TechTypesListItem>
