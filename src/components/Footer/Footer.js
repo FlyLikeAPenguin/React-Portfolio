@@ -15,7 +15,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Created in 2021 using React.js & Next.js</Slogan>
+          <Slogan>Created in 2024 using React.js & Next.js</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/FlyLikeAPenguin">

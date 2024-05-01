@@ -23,10 +23,12 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br />
             <TechTypesList>
-              <TechTypesListItem>Winforms</TechTypesListItem>
-              <TechTypesListItem>DevExpress</TechTypesListItem>
               <TechTypesListItem>React.js</TechTypesListItem>
               <TechTypesListItem>HTML/CSS</TechTypesListItem>
+              <TechTypesListItem>Flask</TechTypesListItem>
+              <TechTypesListItem>Tailwind</TechTypesListItem>
+              <TechTypesListItem>Winforms</TechTypesListItem>
+              <TechTypesListItem>DevExpress</TechTypesListItem>
             </TechTypesList>
           </ListParagraph>
         </ListContainer>
@@ -40,10 +42,9 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br />
             <TechTypesList>
-              <TechTypesListItem>C# .Net</TechTypesListItem>
-              <TechTypesListItem>.Net Core APIs</TechTypesListItem>
-              <TechTypesListItem>Go</TechTypesListItem>
               <TechTypesListItem>Python</TechTypesListItem>
+              <TechTypesListItem>C# .Net</TechTypesListItem>
+              <TechTypesListItem>Go</TechTypesListItem>
               <TechTypesListItem>Java</TechTypesListItem>
             </TechTypesList>
           </ListParagraph>
@@ -60,10 +61,11 @@ const Technologies = () => (
             <TechTypesList>
               <TechTypesListItem>Windows</TechTypesListItem>
               <TechTypesListItem>Linux</TechTypesListItem>
+              <TechTypesListItem>Docker</TechTypesListItem>
+              <TechTypesListItem>AWS ECS, EC2, S3, CloudWatch, Secrets Manager</TechTypesListItem>
               <TechTypesListItem>Git</TechTypesListItem>
-              <TechTypesListItem>Subversion</TechTypesListItem>
+              <TechTypesListItem>SVN</TechTypesListItem>
               <TechTypesListItem>Visual Studio/VS Code</TechTypesListItem>
-              <TechTypesListItem>Sharepoint</TechTypesListItem>
             </TechTypesList>
           </ListParagraph>
         </ListContainer>

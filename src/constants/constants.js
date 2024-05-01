@@ -38,11 +38,31 @@ export const projects = [
   },
   {
     title: 'IdleSat',
-    description: "An satellite themed 'Idle' Game created in the Unity engine.",
-    objectives: ["Exploring game mechanics in Unity.", "Creating graphics/UI elements."],
+    description: "A satellite themed 'Idle' Game created in the Unity engine.",
+    objectives: ["Exploring game mechanics in Unity.", "Creating graphics/UI elements.", "Understanding Unity project layout.", "Learning how Unity connects objects."],
     image: './images/4.gif',
     tags: ['Unity', 'C#', 'Game'],
     id: 4,
+  },
+  {
+    title: 'Satellite Orbital Simulator & Tracker',
+    description: "A fully 3D orbital simulation with forward/backward propagation and ground-station pass calculation.",
+    objectives: ["Forwards and backwards orbit propagation.", "Calculation of ground-station passes."],
+    image: './images/6.png',
+    tags: ['ReactJS', 'Javascript', 'CesiumJS'],
+    visit: 'https://flylikeapenguin.github.io/Satboard/?gs=78.2298,15.4078',
+    source: 'https://github.com/FlyLikeAPenguin/Satboard',
+    id: 6,
+  },
+  {
+    title: 'Mission Countdown',
+    description: "A simple mission countdown app with milestones to use during satellite launch and early operation.",
+    objectives: ["Simple mission situational awareness.", "Fireworks for fun and entertainment."],
+    image: './images/7.png',
+    tags: ['ReactJS', 'Javascript', 'FireworksJS'],
+    visit: 'https://flylikeapenguin.github.io/MissionCountdown/',
+    source: 'https://github.com/FlyLikeAPenguin/MissionCountdown',
+    id: 7,
   },
 ];
 
@@ -54,4 +74,7 @@ export const TimeLineData = [
   { year: 2021, text: 'Created Personal Portfolio using React.js & Next.js', },
   { year: 2021, text: 'Created Genki Flashcards using React.js', },
   { year: 2022, text: 'Got first gold badge on Hackerrank (Python)', },
+  { year: 2023, text: 'Moved to Japan to work at Axelspace writing satellite ground-systems', },
+  { year: 2023, text: 'Promoted to senior developer for satellite ground-systems', },
+  { year: 2024, text: 'Promoted to team leader for satellite Data Aquisition and Delivery', },
 ];

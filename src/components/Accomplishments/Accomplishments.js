@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentsStyles';
 
 const data = [
   { number: 3, text: 'Open Source Projects' },
@@ -9,10 +9,10 @@ const data = [
   { number: 1, text: 'Github Star', }
 ];
 
-const Acomplishments = () => (
+const Accomplishments = () => (
   <Section>
     <SectionTitle>
-      Personal Acomplishments
+      Personal Accomplishments
     </SectionTitle>
     <Boxes>
       {data.map((card, index) => (
@@ -25,4 +25,4 @@ const Acomplishments = () => (
   </Section>
 );
 
-export default Acomplishments;
+export default Accomplishments;

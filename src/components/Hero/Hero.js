@@ -8,10 +8,10 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Joe Thornton - Software Developer
+        Joe Thornton - Senior Software Engineer
       </SectionTitle>
       <SectionText>
-        I'm Joe - a software developer from the UK currently working on laboratory management software for the nuclear medicine industry.
+        I'm Joe - a senior software engineer and team leader from the UK currently working in Japan on satellite ground systems.
       </SectionText>
       <ButtonBack href="#projects">
         Learn More

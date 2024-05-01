@@ -34,7 +34,7 @@ const Header = () => (
       <SocialIcons href="https://www.linkedin.com/in/joecthornton/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/animageofmyself/">
+      <SocialIcons href="https://www.instagram.com/itstokyojoe/">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>
