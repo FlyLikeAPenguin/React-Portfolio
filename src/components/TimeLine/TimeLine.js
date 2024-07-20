@@ -48,7 +48,7 @@ const Timeline = () => {
         About Me
       </SectionTitle>
       <SectionText>
-        I have a variety of interests including: Bouldering, Aviation, and Anime
+        I have a variety of interests including reading, space, and musical theatre.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
