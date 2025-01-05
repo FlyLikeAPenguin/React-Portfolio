@@ -64,6 +64,15 @@ export const projects = [
     source: 'https://github.com/FlyLikeAPenguin/MissionCountdown',
     id: 7,
   },
+  {
+    title: 'ImaGENation',
+    description: "An exploration into wrapping a cloud-based image generation model in a REST API using FastAPI with automatic rate limiting.",
+    objectives: ["Learn FastAPI", "Experiment with Image Generation Models"],
+    image: './images/8.png',
+    tags: ['Python', 'FastAPI', 'Image Generation'],
+    source: 'https://github.com/FlyLikeAPenguin/imagenation-api',
+    id: 8,
+  },
 ];
 
 export const TimeLineData = [
