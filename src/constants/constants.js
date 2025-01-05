@@ -82,8 +82,8 @@ export const TimeLineData = [
   { year: 2020, text: 'LabLogic - Designed, Managed & Completed a .Net Core REST API', },
   { year: 2021, text: 'Created Personal Portfolio using React.js & Next.js', },
   { year: 2021, text: 'Created Genki Flashcards using React.js', },
-  { year: 2022, text: 'Got first gold badge on Hackerrank (Python)', },
-  { year: 2023, text: 'Moved to Japan to work at Axelspace writing satellite ground-systems', },
-  { year: 2023, text: 'Promoted to senior developer for satellite ground-systems', },
-  { year: 2024, text: 'Promoted to team leader for satellite Data Aquisition and Delivery', },
+  { year: 2022, text: 'Got First Gold Badge on Hackerrank (Python)', },
+  { year: 2023, text: 'Moved to Japan to Work as a DevOps Engineer on Satellite Ground-systems', },
+  { year: 2023, text: 'Promoted to Senior Software Engineer for Satellite Ground-systems', },
+  { year: 2024, text: 'Promoted to Team Leader for Satellite Data Acquisition and Delivery', },
 ];
